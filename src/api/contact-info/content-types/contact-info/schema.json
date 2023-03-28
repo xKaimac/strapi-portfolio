@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-info",
     "pluralName": "contact-infos",
-    "displayName": "ContactInfo"
+    "displayName": "ContactInfo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,18 @@
       "type": "string"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "ImageUrl": {
+      "type": "string"
     }
   }
 }
